@@ -32,8 +32,6 @@ level.walls = {
 		700, 700,
 		900, 700,
 		900, 200
-
-
 	},
 	{
 		1100, 800,
@@ -57,19 +55,7 @@ level.seeds = {
 
 --Even though it says entities, you can pretty much use this to make whatever you want
 level.entities = {
-	{c=Checkpoint.create, p={100, 1550}},
-	{c=Checkpoint.create, p={800, 650}},
-	{c=Checkpoint.create, p={1550, 850}},
 
-	{c=Laser.create, p={800, 1100, math.pi/2, Laser.mode_circular}},
-	{c=Laser.create, p={950, 650, 3*math.pi/4, Laser.mode_circular}},
-	{c=Laser.create, p={300, 1300, math.pi/2, Laser.mode_static}},
-	{c=Laser.create, p={300, 700, 3*math.pi/2, Laser.mode_sweep}},
-
-	{c=Fan.create, p={1372, 1299, 3*math.pi/2, 0.005}},
-	{c=Fan.create, p={1050, 1599, 3*math.pi/2, -0.002}},
-	{c=Fan.create, p={1680, 750 , 2*math.pi, 0.002}},
-	{c=Fan.create, p={60, 250 , 2*math.pi, 0.005}},
 }
 
 return level
